@@ -7,6 +7,17 @@
       body{
             margin:0;
        }
+    .container-fluid{
+  width: 90%;   /* instead of 1000px */
+}
+    @media (max-width: 600px) {
+  body {
+    font-size: 14px;   /* text small in phone */
+  }
+  .container-fluid {
+    width: 100%;      /* full width on phone */
+  }
+}
     .navbar{
         position:sticky;
         height:54px;
@@ -182,6 +193,7 @@
 }
 </style>
 <body>
+    <div class="container-fluid">
     <div class="hero"><h1 class="animate-charcter"><em>Babee Collections</em></h1></div>
     <div class="navbar">
         <a id="v"href=""><i class="fa fa-gg" aria-hidden="true"color="white"></i> BaBeee</a>
@@ -228,6 +240,8 @@
 <div><h2>For Your Babies</h2></div>
 <div><h3><em>Good Quality and Materials For <br> Baby's Comfort and Cuteness.</em></h3></div>
 <a href="shop.html"><button class="button button1">Shop Now</button></a>
+</div>
 </body>
 
 </html>
+
