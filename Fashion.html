@@ -7,6 +7,17 @@
     body{
             margin:0;
        }
+    .container-fluid{
+  width: 90%;   /* instead of 1000px */
+}
+    @media (max-width: 600px) {
+  body {
+    font-size: 14px;   /* text small in phone */
+  }
+  .container-fluid {
+    width: 100%;      /* full width on phone */
+  }
+}
     .navbar{
         position:sticky;
         height:54px;
@@ -246,6 +257,7 @@ button{
         }
 </style>
 <body>
+    <div class="container-fluid>
     <div class="hero"><h1><em>Fashion Items</em></h1><input type="text"placeholder="Search"><br><div class="grid-container"><div class="grid-item item1"><img src="fa1.jpg"></div>
     <div class="grid-item item2"><h2>Baby Red Frock</h2><h3>1-2 years<br>$15</h3><button>Buy Now</button></div>
     <div class="grid-item item3"><img src="fa2.webp"></div>
@@ -300,6 +312,8 @@ button{
     </div>
         <a href="home.html">Home</a>  
 </div>
+</div>
 </body>
 
 </html>
+
