@@ -1,0 +1,219 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/fcf05e76e7.js" crossorigin="anonymous"></script>
+    </head>
+<style>
+       body{
+            margin:0;
+       }
+    .navbar{
+        position:sticky;
+        height:54px;
+        background-color:rgb(177, 58, 177);
+    }
+    div.k a{
+        background-color:green;
+    }
+    .navbar a{
+        float:right;
+        font-family:"Rockwell";
+        font-size:18px;
+        color:white;
+        text-align:center;
+        padding:16px 20px;
+        text-decoration: none;
+    }
+     #v{
+        float:left;
+        font-family:"Brush Script MT";
+        font-size:30px;
+        color:white;
+        text-align:center;
+        padding:9px 20px;
+        text-decoration: none;
+    }
+    .dropdown{
+        float:right;
+        position:relative;
+    }
+    .dropdown .dropbtn{
+        font-family:"Rockwell";
+        font-size:18px;
+        border:none;
+        outline:none;
+        color:white;
+        padding:16px 20px;
+        background-color:inherit;
+        margin:0;
+    }
+    .navbar :hover:not(button),.dropdown:hover .dropbtn{
+        background-color:violet;
+        color:rgb(53, 15, 53);
+    }
+    div.k :hover{
+        background-color:rgb(145, 192, 170);
+        color:rgb(53, 15, 53);
+    }
+    .dropdown-one{
+        cursor:pointer;
+        display:none;
+        position:absolute;
+        background-color:rgb(228, 191, 228);
+        min-width: 160px;
+        box-shadow: 0px 8px 16x 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-two{
+        cursor:pointer;
+        display:none;
+        position:absolute;
+        left:160px;
+        top:0px;
+        min-width:160px;
+        background-color:rgb(228, 191, 228);
+        box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown:hover .dropdown-one, #link1:hover .dropdown-two{
+        background-color:rgb(228, 191, 228);
+        font-family:"Rockwell";
+        font-size:18px;
+        display:block;
+    }
+    .dropdown-two:hover{
+        background-color:rgb(207, 207, 238); 
+    }
+    .dropdown-one .dItem{
+        color:rgb(117, 30, 117);
+        padding:12px 16px;
+        display:block;
+        text-align:left;
+    }
+    .dropdown-one.dItem:hover,.dropdown-two a:hover{
+       background-color:rgb(117, 30, 117);
+    }
+    .dropdown-one .dI{
+        color:rgb(117, 30, 117);
+        padding:16px 16px;
+        display:block;
+        text-align:left;
+        font-family:"Rockwell";
+        font-size:18px;
+    }
+    .dI:hover{
+       background-color:rgb(204, 67, 204);
+       color:white;
+    }
+    .hero{
+        background-image:url("baby4.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        position:fixed;
+           display:flex;
+           align-items:left;
+           justify-content:left;
+        top:20px;
+        bottom:0px;
+        left:0px;
+        right:0px;
+    }
+    h1{
+        position: relative;
+        color:rgb(121, 27, 121);
+        font-size:5rem;
+        font-family:"Brush Script Mt";
+        line-height:1.8;
+        text-indent:2px;
+        margin-top:100px;
+        margin-left:150px;
+    }
+    h2{
+        position: relative;
+        color:rgb(121, 27, 121);
+        font-size:2.5rem;
+        font-family:"Brush Script Mt";
+        line-height:0.8;
+        text-indent:2px;
+        margin-top:200px;
+        padding-top:3px;
+        margin-left:250px;
+    }
+    h3{
+        position: relative;
+        color:rgb(121, 27, 121);
+        font-size:1.1rem;
+        font-family:"Rockwell";
+        margin-top:10px;
+        margin-left:220px;
+        text-indent:4px;
+    }
+    .button{
+        position: relative;
+        margin-top:8px;
+        margin-left:250px;
+        color:white;
+        text-align: center;
+        padding:10px 15px;
+        border:none;
+        border-radius:15px;
+        cursor:pointer;
+        font-family:"Rockwell";
+        font-size:14px bold;
+        width:10%;
+    }
+    .button1{
+    background:linear-gradient(to right,rgb(255, 196, 228),rgb(187, 19, 187));
+    transform:all 0.3s ease;
+}
+.button1:hover{
+    background:linear-gradient(to right,rgb(80, 2, 80),rgb(255, 127, 234));
+    color:white;
+}
+</style>
+<body>
+    <div class="hero"><h1><em>Babee Collections</em></h1></div>
+    <div class="navbar">
+        <a id="v"href=""><i class="fa fa-gg" aria-hidden="true"color="white"></i> BaBeee</a>
+        <div class="k"><a href="login.html">Login <i class="fa fa-sign-in" aria-hidden="true"style="padding-left:2px"></i></a></div>
+        <a href="#">Contact Us</a>
+        <div class="dropdown">
+        <div class="dropbtn">Settings</div>
+        <div class="dropdown-one">
+        <div class="dI"href="#"><i class="fa fa-user" aria-hidden="true"style="size:15px;color:White;padding-right:6px"></i> Account</div>
+        <div class="dI"href="#"><i class="fa fa-list" aria-hidden="true"style="size:15px;color:White;padding-right:6px"></i> Wishlist</div>      
+        <div class="dI"href="#"><i i class="fa fa-sort" aria-hidden="true"style="size:15px;color:White;padding-right:6px"></i> Orders</div>
+        <div class="dI"href="#"><i class="fa fa-sign-out" aria-hidden="true"style="size:15px;color:White;padding-right:6px"></i>Log Out</div>
+    </div></div>
+    <a href="about.html">About</a>   
+        <a href="#">Blogs</a>
+        <div class="dropdown">
+            <div class="dropbtn">Shop</div>
+            <div class="dropdown-one">
+                <div id="link1"class="dItem"href="#">Nursery
+                <div class="dropdown-two">
+                    <div class="dItem"href="#">Toys</div>
+                    <div class="dItem"href="#">Cribs</div>
+                    <div class="dItem"href="#">Accessories</div>
+                </div>
+            </div>
+            <div id="link1"class="dItem"href="#">Fashion
+                <div class="dropdown-two"style="margin-top:70px">
+                    <div class="dItem"href="#">Sleep Wear</div>
+                    <div class="dItem"href="#">Outer Wear</div>
+                    <div class="dItem"href="#">Dresses</div>
+                </div>  
+            </div>
+            <div id="link1"class="dItem"href="#">Products
+                <div class="dropdown-two"style="margin-top:100px">
+                    <div class="dItem"href="#">Skin Care</div>
+                    <div class="dItem"href="#">Hair Care</div>
+                    <div class="dItem"href="#">Medicine Kit</div>
+                </div>  
+            </div>
+        </div>
+    </div>
+        <a href="index.html">Home</a>
+</div>
+<div><h2>For Your Babies</h2></div>
+<div><h3><em>Good Quality and Materials For <br> Baby's Comfort and Cuteness.</em></h3></div>
+<a href="shop.html"><button class="button button1">Shop Now</button></a>
+</body>
+</html>
